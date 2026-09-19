@@ -1,0 +1,14 @@
+{
+  "title": "云南大学学科竞赛概览",
+  "competitions": [
+    { "id": 1, "name": "全国大学生数学竞赛 (CMC)", "type": "理科类", "level": "国家级", "status": "报名中" },
+    { "id": 2, "name": "蓝桥杯全国软件和信息技术专业人才大赛", "type": "计算机类", "level": "国家级", "status": "即将开始" },
+    { "id": 3, "name": "全国大学生软件测试大赛", "type": "计算机类", "level": "国家级", "status": "已结束" },
+    { "id": 4, "name": "全国大学生市场调查与分析大赛", "type": "商科类", "level": "国家级", "status": "报名中" }
+  ],
+  "stats": {
+    "categories": ["2023", "2024", "2025", "2026"],
+    "cmcParticipants": [120, 150, 180, 210],
+    "lanqiaoParticipants": [200, 250, 310, 380]
+  }
+}
