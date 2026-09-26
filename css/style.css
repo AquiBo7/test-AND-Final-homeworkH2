@@ -14,19 +14,34 @@ body {
 }
 
 .navbar {
-  background-color: rgba(13, 110, 253, 0.85) !important;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background-color: rgba(15, 23, 42, 0.75) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero-section {
+  position: relative;
+  height: 300px;
+  background: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.8)), url('../assets/campus-bg.jpg') center/cover no-repeat;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.hero-section > * {
+  position: relative;
+  z-index: 1;
 }
 
 .card {
+  border: none !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05) !important;
   transition: all 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1) !important;
 }
 
 .btn-primary {
