@@ -1,9 +1,53 @@
 body {
   font-family: sans-serif;
-  background-color: #f8f9fa;
+  background-color: #f4f7f6;
+  color: #212529;
 }
 
 .chart-box {
   width: 100%;
   height: 400px;
+}
+
+.text-muted {
+  color: #495057 !important;
+}
+
+.navbar {
+  background-color: rgba(13, 110, 253, 0.85) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.btn-primary {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 6px 16px rgba(13, 110, 253, 0.3);
+}
+
+.btn-outline-primary {
+  color: #0a58ca !important;
+  border: none !important;
+  background-color: #ffffff !important;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #ffffff !important;
+  background-color: #0a58ca !important;
+  box-shadow: 0 6px 16px rgba(13, 110, 253, 0.28);
 }
